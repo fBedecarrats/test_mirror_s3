@@ -20,6 +20,7 @@ chown -R rstudio:users $WORK_DIR
 mkdir $DATA_DIR
 mkdir $DOC_DIR
 
+chown -R rstudio:users $DATA_DIR
 
 
 ## copy files from S3 to container
