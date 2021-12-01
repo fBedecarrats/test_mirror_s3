@@ -16,9 +16,9 @@ DOC_DIR=${WORK_DIR}/documentation
 git clone $REPO_URL $WORK_DIR
 chown -R rstudio:users $WORK_DIR
 
-# # Folders to store data and documentation
-# mkdir $DATA_DIR
-# mkdir $DOC_DIR
+# Folders to store data and documentation
+mkdir $DATA_DIR
+mkdir $DOC_DIR
 # 
 # 
 # 
