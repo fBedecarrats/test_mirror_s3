@@ -25,5 +25,5 @@ mkdir $DOC_DIR
 ## copy files from S3 to container
 mc cp s3/${S3_USER_NAME}/diffusion/test_mirror $DATA_DIR
 ## mirror from container to S3
-mc mirror --watch $DATA_DIR s3/${S3_USER_NAME}/diffusion/test_mirror
+# mc mirror --watch $DATA_DIR s3/${S3_USER_NAME}/diffusion/test_mirror
 
